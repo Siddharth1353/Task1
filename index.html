@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <div class="main">
+      <nav>
+        <img src="images/logo.png" alt="logo" class="logo">
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">My Projects</a></li>
+          <li><a href="#">Hobbies</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hey, I am <span>Siddharth</span> Rajpurohit <br> from Jodhpur, Rajasthan.</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- --------------about------------->
+
+  <div id="about">
+    <div class="main">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/intro img.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Allow me to introduce myself. I am a curious and adventurous individual who finds joy in exploring the
+            intricacies of life. With an insatiable thirst for knowledge, I am constantly seeking to learn and grow.
+            Whether it's delving into the pages of a good book, embarking on outdoor adventures, or engaging in
+            thought-provoking conversations, I am always eager to embrace new experiences.
+            So, that's a glimpse into who I am an inquisitive soul with a passion for growth, a love for the world, and a commitment to making a difference, one day at a time.</p>
+
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="box">
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programmer</span><br>Certified with C and C++</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>Content Writing</span><br>Raps, Songs, Quotes!</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-current </span><br>Web Developer Intern</li>
+                <li><span>2022-2023</span><br>Class Representative</li>
+                <li><span>2021-2022</span><br>School Head boy</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023-current</span><br>B.tech, Computer Science</li>
+                <li><span>2022</span><br>School Education</li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <-------------My Projects---------------->
+
+  <div class="services">
+    <h1 class="sub-title">My Projects</h1>
+
+    <div id="project">
+      <div class="card" style="width: 18rem;">
+        <img src="images/foodre.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Food Delivering Website</h5>
+          <p class="card-text">This website helps you to place order of your favourite food items. Moreover it helps you
+            to pick the most quality food as well.</p>
+          <a href="./files/Project Food Delivery website/index.html" class="btn btn-primary" target="_blank">Go to
+            Website</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/game.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gaming Website</h5>
+          <p class="card-text">This website is basically for the gaming purpose. It makes the the user engage with the
+            game and prevents boredom.</p>
+          <a href="./files/Project Gaming Webiste/index2.html" class="btn btn-primary" target="_blank">Go to Website</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/simon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Simon's Game Website</h5>
+          <p class="card-text">Health is one of the most important factor of a human body. Therefore this website helps
+            you to find the best gym available near you and helps you enroll in it.</p>
+          <a href="./files/Simon Game Challenge Starting Files/index.html" class="btn btn-primary" target="_blank">Go to
+            Website</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Hobbies -->
+  <div class="box1">
+    <h1 class="sub-title">My Hobbies</h1>
+    <div class="container">
+      <div class="cards">
+        <div class="card card-one">
+          <h2 class="card-title">Rapping</h2>
+          <p class="date">Refreshes Mind</p>
+          <p class="description">Doing it since I was in class 6 and it emerged as one of my favourite.It's a passion
+            that flows through my veins. When I step up to the mic, I feel an
+            electrifying surge of creativity and self-expression that words alone can't capture</p>
+        </div>
+
+        <div class="card card-two">
+          <h2 class="card-title">Football</h2>
+          <p class="date">Fitness</p>
+          <p class="description">It's a sport that teaches me about teamwork, discipline, and perseverance, and it
+            allows me to stay active and fit. Football isn't just a pastime; it's a way of life, and I wouldn't have it
+            any other way.</p>
+        </div>
+
+        <div class="card card-three">
+          <h2 class="card-title">Music</h2>
+          <p class="date">Heals inner-self</p>
+          <p class="description">Whether it's the soothing melodies of classical compositions, the rhythmic beats of
+            hip-hop, or the soul-stirring lyrics of a heartfelt ballad, music has the power to inspire, comfort, and
+            uplift my spirit.</p>
+        </div>
+
+        <div class="card card-four">
+          <h2 class="card-title">Reading</h2>
+          <p class="date">Knowledge is power</p>
+          <p class="description">Books are my companions through life's journey, offering wisdom, solace, and
+            inspiration. They have the power to transport me to different eras and allow me to walk in someone else's
+            shoes, fostering empathy and understanding.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Contacts -->
+
+  <div class="box1">
+    <h1 class="sub-title">Contact Me</h1>
+    <form>
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" value="SUBMIT" />
+    </form>
+
+  </div>
+
+
+
+</body>
+
+</html>
